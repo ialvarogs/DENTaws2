@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Navigation from '../components/Navigation';
 import { Inter } from "next/font/google";
 //import "./app.css";
 import "./globals.css";
@@ -20,8 +19,6 @@ export default function RootLayout({ children }) {
       />
       </head>
       <body>
-
-        <Navigation />
         <div className="container p-4">{children}</div>
         
         </body>
